@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 10px;
+    outline: 0;
+}
+nav{
+   
+    display: flex;
+    justify-content: space-between;
+
+}
+nav .nav-items{
+   display: flex;
+    font-size: 25px;
+    gap: 60px;
+    font-family:crossorigin, sans-serif;
+}
+.nav-items .active-item {
+    color: #FE5E35;
+}
+nav img:nth-child(3){
+    width: 40vh;
+    margin-right: -80px;
+}
+nav img:nth-child(1){
+    width: 100px;
+}
+.right-section .headphone-div img:nth-child(3){
+    width: 390px;
+    position: absolute;
+    margin-left: 115vh;
+    top: 13vh;
+    z-index: -1;
+}
+.right-section .headphone-div img:nth-child(1){
+    margin-left: 53vw;
+    margin-top: -31vh;
+    width: 110px;
+    position: absolute;
+}
+.right-section .headphone-div .discount-content {
+   /* background-color: aquamarine; */
+   position: absolute;
+    color: rgb(255, 255, 255);
+    margin-left: 54vw;
+    margin-top: -29vh;
+    align-items: center;
+    box-shadow: 10px 30px -aqua;
+    
+}
+.right-section .headphone-div .discount-content h1{
+    font-size: 35px;
+    
+}
+/* left section  start */
+.left-section h3{
+    color: #504c4b;
+    font-size: 30px;
+    width: 25vw; font-family:crossorigin, sans-serif;
+}
+.left-section h1{
+    
+    font-size: 4.5vw;
+    width: 59vw;
+    height: 50px;
+    font-family:Fredoka one, sans-serif;
+}
+.left-section .sub-headlines{
+   color:#504c4b;
+    width: 40vw;
+    margin-left: 10vw;
+    margin-top: 70px;
+    font-size: 25px;
+    font-family:crossorigin, sans-serif;
+}
+.left-section .sub-headlines img{
+    background-color: #FE5E35;
+    border-radius: 15px;
+    width: 20px;
+    padding: 3px 3px;
+    position: absolute;
+   margin-top: -2px;
+   margin-left: -40px;
+}
+.left-section p{
+    color: #ada8a8;
+    font-size: 20px;
+    align-items: center;
+    width: 50vw;
+    margin-top: 10vh;
+    font-family:crossorigin, sans-serif;
+}
+.left-section .action-btns button{
+    background-color: #FE5E35;
+    color: #ffffff;
+    margin-top: 30px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: hidden;
+}
+.right-section .dots{
+   
+    width: 100px;
+    display: flex;
+    margin-left: 67vw;
+    margin-top: -20vh;
+}
+.right-section .dots .dot {
+    background-color: #FE5E35;
+    border-radius: 15px;
+    padding: 8px 8px;
+}
+.right-section .dots .yellow-dot{
+    background-color: rgb(221, 245, 10);
+}
+.right-section .dots .tomato-dot{
+    background-color:#FE5E35 ;
+}
+.right-section .dots .black-dot{
+    background-color: black;
+}
+.right-section button{
+    background-color: #FE5E35;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: hidden;
+    margin-left: 67vw;
+    margin-top: 30px;
+}
