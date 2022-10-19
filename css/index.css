@@ -3,10 +3,18 @@
     margin: 10px;
     outline: 0;
 }
+body, html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
 nav{
    
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 
 }
 nav .nav-items{
@@ -25,34 +33,15 @@ nav img:nth-child(3){
 nav img:nth-child(1){
     width: 100px;
 }
-.right-section .headphone-div img:nth-child(3){
-    width: 390px;
-    position: absolute;
-    margin-left: 115vh;
-    top: 13vh;
-    z-index: -1;
-}
-.right-section .headphone-div img:nth-child(1){
-    margin-left: 53vw;
-    margin-top: -31vh;
-    width: 110px;
-    position: absolute;
-}
-.right-section .headphone-div .discount-content {
-   /* background-color: aquamarine; */
-   position: absolute;
-    color: rgb(255, 255, 255);
-    margin-left: 54vw;
-    margin-top: -29vh;
-    align-items: center;
-    box-shadow: 10px 30px -aqua;
-    
-}
-.right-section .headphone-div .discount-content h1{
-    font-size: 35px;
-    
-}
+
+
 /* left section  start */
+
+.intro-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
 .left-section h3{
     color: #504c4b;
     font-size: 30px;
@@ -98,33 +87,58 @@ nav img:nth-child(1){
     border-radius: 15px;
     border: hidden;
 }
-.right-section .dots{
-   
-    width: 100px;
-    display: flex;
-    margin-left: 67vw;
-    margin-top: -20vh;
+/* ////////////////////////right section//////////// */
+ .headphone {
+    margin-top: -5vh;
+    margin-left: -100px;
+    width: 500px;
 }
-.right-section .dots .dot {
-    background-color: #FE5E35;
-    border-radius: 15px;
-    padding: 8px 8px;
+.discount-content{
+    
+    margin-top: 250px;
+    margin-left: -140px;
+position: absolute;
 }
-.right-section .dots .yellow-dot{
-    background-color: rgb(221, 245, 10);
+.headphone-div img:nth-child(1){
+    position: absolute;
+    margin-top: 200px;
+    margin-left: -180px;
 }
-.right-section .dots .tomato-dot{
-    background-color:#FE5E35 ;
-}
-.right-section .dots .black-dot{
-    background-color: black;
-}
-.right-section button{
+.action-btn{
     background-color: #FE5E35;
     color: #ffffff;
-    padding: 10px 20px;
-    border-radius: 15px;
-    border: hidden;
-    margin-left: 67vw;
-    margin-top: 30px;
+    border-color:#FE5E35;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+/* ////////////////////////media query//////////////////// */
+@media screen and (max-width:768px) {
+    .intro-section{
+        display: grid;
+        grid-template-columns: auto;
+        
+    }
+    .search{
+        display: none;
+    }
+    .intro-section .reverse>.right-section{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .right-section{
+        display: grid;
+        order: 2;
+    }
+    nav .nav-items{
+       background-color: #FE5E35;
+         font-size: 15px;
+         gap: 5px; 
+     }
+     nav img:nth-child(3){
+       
+        width: 40vh;
+       
+    }
 }
