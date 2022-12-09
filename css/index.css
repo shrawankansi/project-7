@@ -157,8 +157,5 @@ position: absolute;
     .headphone-div img:nth-child(1){
        width: 150px;
     }
-    .intro-section{
-        align-items: center;
-        justify-content: center;
-    }
+   
 }
