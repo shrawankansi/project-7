@@ -141,4 +141,24 @@ position: absolute;
         width: 40vh;
        
     }
+    .headphone {
+        width: 400px;
+    }
+    .headphone-div{
+            margin-left: 170px;
+    }
+    .action-btn{
+       
+      margin-left: 100px; 
+    }
+    .discount-content{
+    width: 100px;
+    }
+    .headphone-div img:nth-child(1){
+       width: 150px;
+    }
+    .intro-section{
+        align-items: center;
+        justify-content: center;
+    }
 }
